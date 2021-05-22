@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Blog III: Choosing the Correct Regression Model - DATA621 BLOGS</title><meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Blog III: Choosing the Correct Regression Model" />
+<meta property="og:description" content="The process of deciding which independent variables to include and remove from a regression equation is known as model specification. How do you choose the most appropriate regression model? The world is complex, and attempting to understand it with a limited sample size is futile. In this article, I&#39;ll show you how to choose the right one. I&#39;ll go over mathematical approaches and potential problems. " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/blog3/" />
+<meta property="article:published_time" content="2021-04-10T10:56:08-06:00" />
+<meta property="article:modified_time" content="2021-04-10T10:56:08-06:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Blog III: Choosing the Correct Regression Model"/>
+<meta name="twitter:description" content="The process of deciding which independent variables to include and remove from a regression equation is known as model specification. How do you choose the most appropriate regression model? The world is complex, and attempting to understand it with a limited sample size is futile. In this article, I&#39;ll show you how to choose the right one. I&#39;ll go over mathematical approaches and potential problems. "/>
+<script src="js/feather.min.js"></script>
+	
+	<link href="css/fonts.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" /><link rel="stylesheet" type="text/css" href="css/dark.css" media="(prefers-color-scheme: dark)" />
+	
+	
+	
+	
+	<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  </head>
+
+</html>
+
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="">DATA621 BLOGS</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/tags">Tags</a>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Blog III: Choosing the Correct Regression Model</h1>
+			<div class="meta">Posted on Apr 10, 2021</div>
+		</div>
+		
+
+		<section class="body">
+			<p>The process of deciding which independent variables to include and remove from a regression equation is known as model specification.
+How do you choose the most appropriate regression model? The world is complex, and attempting to understand it with a limited sample size is futile. In this article, I&rsquo;ll show you how to choose the right one.</p>
+<p>When a researcher needs to mathematically describe the relationship between independent variables and the dependent variable, model selection is often needed. In most cases, investigators calculate a large number of variables but only use a few in the model. Analysts tend to exclude unrelated independent variables and instead use those that have a real relationship with the dependent variable. Analysts usually experiment with different combinations of variables and model types during the specification process. They may, for example, experiment with various terminology to describe variable interactions and data curvature.</p>
+<p>The analysts need to  balance by including the correct number of independent variables in the regression equation.</p>
+<ul>
+<li>Too few: Underspecified models tend to be biased.</li>
+<li>Too many: Overspecified models tend to be less precise.</li>
+<li>Just right: Models with the correct terms are not biased and are the most precise.</li>
+</ul>
+<p>Any independent variables that you are explicitly evaluating as part of the analysis, as well as other variables that influence the dependent variable, should be included in the regression equation to prevent skewed outcomes.</p>
+<p>Statistical assessments may be used during the model specification process. You can use a variety of metrics and algorithms to figure out which independent variables to use in your regression equation.here are some popular model selection approaches.</p>
+<p><strong>Predicted R-squared and Adjuseded R-squared:</strong> Generally, you want to use models with higher adjusted and predicted R-squared values.
+These statistics will help you avoid the underlying problem with R-squared, which is that when you add an independent variable, it often increases.
+This property tempts you to specify an overly complex model, which can lead to erroneous results.</p>
+<ul>
+<li>Only when a new variable improves the model by more than chance does adjusted R-squared increase.It can be lowered as a result of low-quality variables.</li>
+<li>Predicted R-squared is a cross-validation approach that can also be used to reduce the number of errors.
+Cross-validation divides the data to see how the model can be applied outside of your dataset.</li>
+</ul>
+<p><strong>P-values for independent variables:</strong> P-values less than the significance level of regression mean that the term is statistically important.
+The method of &ldquo;reducing the model&rdquo; entails including all candidate variables in the model and then consistently eliminating the single term with the highest non-significant p-value until your model is reduced to only significant terms.</p>
+<ul>
+<li><strong>Regression using stepwise and best subsets:</strong> These two automated model selection procedures are algorithms that select variables for your regression equation. When you have a large number of independent variables and need assistance with the investigative stages of the variable selection process, these automated approaches may be useful.</li>
+</ul>
+<h3 id="model-selection-methods">Model Selection methods</h3>
+<p>There are statistical methods that can help you with model specification:</p>
+<h4 id="theory">Theory</h4>
+<ul>
+<li>Before you start collecting data, read the literature to gain a theoretical understanding of the related independent variables, their relationships with the dependent variable, and the predicted coefficient signs and impact magnitudes. Building your expertise allows you to collect the right data in the first place and to specify the best regression equation without having to resort to data mining.</li>
+</ul>
+<h4 id="simplicity">Simplicity</h4>
+<p>Analysts often believe that complex problems require complicated regression equations. However, studies show that simplification usually produces more accurate models. If you have many models with similar predictive power, go with the simplest one because it is more likely to be the highest.</p>
+<h4 id="residual-plots">Residual Plots</h4>
+<p>Check the residual plots throughout the specification process. Residuals plots are a simple way to prevent biased models and can assist you in making changes. When an underspecified regression equation is biased, for example, residual plots show trends, indicating the need to model curvature.
+The simplest model, which generates random residuals, is a strong contender for precision and unbiasedness.</p>
+<p><strong>References</strong></p>
+<p>Zellner, A. (2001), Keep it sophisticatedly simple. In Keuzenkamp, H. &amp; McAleer, M. Eds. Simplicity, Inference, and Modelling: Keeping it Sophisticatedly Simple. Cambridge University Press, Cambridge.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/linear-regression">linear regression</a></li>
+					
+					<li><a href="/tags/model-selection">model selection</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr><a class="soc" href="https://github.com/aaitelmouden/" title="GitHub"><i data-feather="github"></i></a>|⚡️
+	2021  © Abdellah |  <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+<script>
+      feather.replace()
+</script></div>
+    </body>
+</html>
