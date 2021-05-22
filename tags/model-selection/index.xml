@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>model selection on DATA621 BLOGS</title>
-    <link>/tags/model-selection/</link>
+    <link>https://aaitelmouden.github.io/blog.github.io/tags/model-selection/</link>
     <description>Recent content in model selection on DATA621 BLOGS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Abdellah</copyright>
     <lastBuildDate>Sat, 10 Apr 2021 10:56:08 -0600</lastBuildDate>
     
-	<atom:link href="/tags/model-selection/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aaitelmouden.github.io/blog.github.io/tags/model-selection/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog III: Choosing the Correct Regression Model</title>
-      <link>/posts/blog3/</link>
+      <link>https://aaitelmouden.github.io/blog.github.io/posts/blog3/</link>
       <pubDate>Sat, 10 Apr 2021 10:56:08 -0600</pubDate>
       
-      <guid>/posts/blog3/</guid>
+      <guid>https://aaitelmouden.github.io/blog.github.io/posts/blog3/</guid>
       <description>The process of deciding which independent variables to include and remove from a regression equation is known as model specification. How do you choose the most appropriate regression model? The world is complex, and attempting to understand it with a limited sample size is futile. In this article, I&amp;rsquo;ll show you how to choose the right one.
 When a researcher needs to mathematically describe the relationship between independent variables and the dependent variable, model selection is often needed.</description>
     </item>

@@ -7,17 +7,17 @@
 	<meta property="og:title" content="Blog I : Education and Life Expectancy" />
 <meta property="og:description" content="Does Education affect one’s Life expectancy? Significant reductions in mortality are reflected in strong increases in life expectancy particularly in industrialized countries. Previous studies relate these improvements primarily to medical innovations and advances in health-related behaviors." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/blog1/" />
+<meta property="og:url" content="https://aaitelmouden.github.io/blog.github.io/posts/blog1/" />
 <meta property="article:published_time" content="2021-03-21T10:56:08-06:00" />
 <meta property="article:modified_time" content="2021-03-21T10:56:08-06:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Blog I : Education and Life Expectancy"/>
 <meta name="twitter:description" content="Does Education affect one’s Life expectancy? Significant reductions in mortality are reflected in strong increases in life expectancy particularly in industrialized countries. Previous studies relate these improvements primarily to medical innovations and advances in health-related behaviors."/>
-<script src="js/feather.min.js"></script>
+<script src="https://aaitelmouden.github.io/blog.github.io/js/feather.min.js"></script>
 	
-	<link href="css/fonts.css" rel="stylesheet">
+	<link href="https://aaitelmouden.github.io/blog.github.io/css/fonts.css" rel="stylesheet">
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" /><link rel="stylesheet" type="text/css" href="css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://aaitelmouden.github.io/blog.github.io/css/main.css" /><link rel="stylesheet" type="text/css" href="https://aaitelmouden.github.io/blog.github.io/css/dark.css" media="(prefers-color-scheme: dark)" />
 	
 	
 	
@@ -43,15 +43,15 @@
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="">DATA621 BLOGS</a>
+		<a href="https://aaitelmouden.github.io/blog.github.io/">DATA621 BLOGS</a>
 	</div>
 	<nav>
 		
-		<a href="/">Home</a>
+		<a href="https://aaitelmouden.github.io/blog.github.io/">Home</a>
 		
-		<a href="/posts">All posts</a>
+		<a href="https://aaitelmouden.github.io/blog.github.io/posts">All posts</a>
 		
-		<a href="/tags">Tags</a>
+		<a href="https://aaitelmouden.github.io/blog.github.io/tags">Tags</a>
 		
 	</nav>
 </header>
@@ -76,7 +76,7 @@ library(gridExtra)
 library(corrplot)
 data &lt;- read.csv(&#34;./Life_Expectancy_Data.csv&#34;)
 </code></pre></div><p>Let&rsquo;s explore the data for a bit. names() is useful for seeing what&rsquo;s on the data frame, head() is a glimpse of the first few rows, and summary() is also useful.</p>
-<p><img src="/imgs/blg1/names.png" alt="Cat"></p>
+<p><img src="https://aaitelmouden.github.io/blog.github.io/imgs/blg1/names.png" alt="Cat"></p>
 <p>We&rsquo;ll Develop category which might give us information on the spread of Life Expectancy data between the two statuses of nations &ldquo;Developed&rdquo; or &ldquo;Developing&rdquo;.</p>
 <p><strong>Data Cleaning</strong></p>
 <p>Let’s clean the data a bit, We have about 10 countries that have a NA value for Life Expectancy. All these 10 countries fall under the category of “Developing”. Let’s replace the NA value with the mean value of the “Developing” group.</p>
@@ -87,7 +87,7 @@ data$Life.expectancy[is.na(data$Life.expectancy)] &lt;- NA_mean
 plot3&lt;- ggplot(data[data$Country == &#34;United States of America&#34;,], aes(x= Year,y=Life.expectancy))+geom_point()
 
 grid.arrange(plot1,plot3, nrow=1)
-</code></pre></div><p><img src="/imgs/blg1/plot1.png" alt="Cat"></p>
+</code></pre></div><p><img src="https://aaitelmouden.github.io/blog.github.io/imgs/blg1/plot1.png" alt="Cat"></p>
 <p>From the above plot we can notice that the Developed Nations have a higher Life Expectancy compared to the Developing nations on average and the developing nations have a wider range of Life Expectancies. We can also see that the life expectancy for United States of America is increasing linearly from the year 2000 to 2015. Do you know? Sierra Leone(Developing) has the lowest life expectancy and Slovenia(Developed) has the highest life expectancy.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">data2015&lt;- data[data$Year==&#34;2015&#34;,]
 </code></pre></div><h3 id="correclation">Correclation</h3>
@@ -96,7 +96,7 @@ grid.arrange(plot1,plot3, nrow=1)
 
 sub_data[is.na(sub_data)] &lt;- 0
 corrplot(type=&#34;upper&#34;,cor(sub_data), method=&#34;circle&#34;, tl.cex = 0.7) #Draw a correlation Plot
-</code></pre></div><p><img src="/imgs/blg1/corr.png" alt="Cat"></p>
+</code></pre></div><p><img src="https://aaitelmouden.github.io/blog.github.io/imgs/blg1/corr.png" alt="Cat"></p>
 <p>From the correlation plot we can see the following observations:</p>
 <ul>
 <li>Life Expectancy and Adult Mortality have a negative correlation.</li>
@@ -127,7 +127,7 @@ plotB&lt;-ggplot(data = data2015_set, aes(Schooling, Life.expectancy)) +
   geom_abline(slope = bhat[2], intercept = bhat[1], colour=&#39;#ED4C67&#39;, lwd=1.5)+
   theme_bw()
 </code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">grid.arrange(plotA,plotB, nrow=1)
-</code></pre></div><p><img src="/imgs/blg1/plot2.png" alt="Cat"></p>
+</code></pre></div><p><img src="https://aaitelmouden.github.io/blog.github.io/imgs/blg1/plot2.png" alt="Cat"></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">plotD&lt;-ggplot(data2015_set, aes(sample=mod1$resid)) +
   stat_qq(color=&#34;#ED4C67&#34;) +
   theme_linedraw()+
@@ -143,7 +143,7 @@ plotB&lt;-ggplot(data = data2015_set, aes(Schooling, Life.expectancy)) +
 <p><strong>What do we see?</strong></p>
 <p>We see that there is an random scatter of points. We don’t see a pattern, a funnel shape or a U shape which states that our data is linear. There is also constant variation and there are equal number of points above and below the line which assess the normality. This is a good model.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">confint(mod1, level=0.95)
-</code></pre></div><p><img src="/imgs/blg1/conf.png" alt="Cat"></p>
+</code></pre></div><p><img src="https://aaitelmouden.github.io/blog.github.io/imgs/blg1/conf.png" alt="Cat"></p>
 <p>Confidence interval (Intercept)- (y)-intercept, (\beta_0) [39.76897,46.034216] Confidence interval (Schooling) - slope, (\beta_1), [1.99229,2.465164]</p>
 <p>Let’s draw prediction and confidence intervals to make inferences:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">preds &lt;- predict(mod1, newdata=data.frame(Schooling=data2015_set$Schooling), interval=&#34;prediction&#34;, level=0.9)
@@ -155,7 +155,7 @@ data2015_set$upr &lt;- preds[,3]
   geom_ribbon(aes(ymin=lwr, ymax=upr), alpha=0.2, fill=&#34;#ED4C67&#34;) +
   geom_smooth(method=&#34;lm&#34;, se=TRUE, level=0.9, color=&#34;#5f27cd&#34;)+
   theme_bw()
-</code></pre></div><p><img src="/imgs/blg1/plot3.png" alt="Cat"></p>
+</code></pre></div><p><img src="https://aaitelmouden.github.io/blog.github.io/imgs/blg1/plot3.png" alt="Cat"></p>
 <p>Conclusion:</p>
 <p>We see from the above analysis that the mean Life Expectancy varies linearly with the Education. From the correlation plot, we also observed that there are multiple factors that affect the Life Expectancy. We can move towards a multiple regression model and compare how we can predict intervals of life expectancy among the developed and developing nations.</p>
 <p>From the plot, we can see that the blue line is the regression line. The wider red band is the prediction intervals. The thinner gray band is the confidence intervals. The prediction and confidence intervals are [79.75981, 95.19245] and [85.96156, 88.9907]</p>
@@ -170,7 +170,7 @@ data2015_set$upr &lt;- preds[,3]
 			<nav class="nav tags">
 				<ul class="tags">
 					
-					<li><a href="/tags/linear-regression">linear regression</a></li>
+					<li><a href="https://aaitelmouden.github.io/blog.github.io/tags/linear-regression">linear regression</a></li>
 					
 				</ul>
 			</nav>

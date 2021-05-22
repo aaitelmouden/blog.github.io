@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DATA621 BLOGS</title>
-    <link>/tags/</link>
+    <link>https://aaitelmouden.github.io/blog.github.io/tags/</link>
     <description>Recent content in Tags on DATA621 BLOGS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Abdellah</copyright>
     <lastBuildDate>Thu, 13 May 2021 10:56:08 -0600</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aaitelmouden.github.io/blog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>KNN regression</title>
-      <link>/tags/knn-regression/</link>
+      <link>https://aaitelmouden.github.io/blog.github.io/tags/knn-regression/</link>
       <pubDate>Thu, 13 May 2021 10:56:08 -0600</pubDate>
       
-      <guid>/tags/knn-regression/</guid>
+      <guid>https://aaitelmouden.github.io/blog.github.io/tags/knn-regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linear regression</title>
-      <link>/tags/linear-regression/</link>
+      <link>https://aaitelmouden.github.io/blog.github.io/tags/linear-regression/</link>
       <pubDate>Thu, 13 May 2021 10:56:08 -0600</pubDate>
       
-      <guid>/tags/linear-regression/</guid>
+      <guid>https://aaitelmouden.github.io/blog.github.io/tags/linear-regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Classification</title>
-      <link>/tags/classification/</link>
+      <link>https://aaitelmouden.github.io/blog.github.io/tags/classification/</link>
       <pubDate>Fri, 23 Apr 2021 10:56:08 -0600</pubDate>
       
-      <guid>/tags/classification/</guid>
+      <guid>https://aaitelmouden.github.io/blog.github.io/tags/classification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>model selection</title>
-      <link>/tags/model-selection/</link>
+      <link>https://aaitelmouden.github.io/blog.github.io/tags/model-selection/</link>
       <pubDate>Sat, 10 Apr 2021 10:56:08 -0600</pubDate>
       
-      <guid>/tags/model-selection/</guid>
+      <guid>https://aaitelmouden.github.io/blog.github.io/tags/model-selection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>simple linear regression</title>
-      <link>/tags/simple-linear-regression/</link>
+      <link>https://aaitelmouden.github.io/blog.github.io/tags/simple-linear-regression/</link>
       <pubDate>Fri, 02 Apr 2021 10:56:08 -0600</pubDate>
       
-      <guid>/tags/simple-linear-regression/</guid>
+      <guid>https://aaitelmouden.github.io/blog.github.io/tags/simple-linear-regression/</guid>
       <description></description>
     </item>
     

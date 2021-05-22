@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KNN regression on DATA621 BLOGS</title>
-    <link>/tags/knn-regression/</link>
+    <link>https://aaitelmouden.github.io/blog.github.io/tags/knn-regression/</link>
     <description>Recent content in KNN regression on DATA621 BLOGS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Abdellah</copyright>
     <lastBuildDate>Thu, 13 May 2021 10:56:08 -0600</lastBuildDate>
     
-	<atom:link href="/tags/knn-regression/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aaitelmouden.github.io/blog.github.io/tags/knn-regression/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog V: K-Nearest Neighbor Regression Example in R </title>
-      <link>/posts/blog5/</link>
+      <link>https://aaitelmouden.github.io/blog.github.io/posts/blog5/</link>
       <pubDate>Thu, 13 May 2021 10:56:08 -0600</pubDate>
       
-      <guid>/posts/blog5/</guid>
+      <guid>https://aaitelmouden.github.io/blog.github.io/posts/blog5/</guid>
       <description>Data Scientist often have multivariate data, and want to make predictions or groupings based on certain aspects of their data. In this algorithm, k is a constant defined by user and nearest neighbors distances vector is calculated by using it.
 The &amp;lsquo;caret&amp;rsquo; package provides &amp;lsquo;knnreg&amp;rsquo; function to apply KNN for regression problems. In this article, we&amp;rsquo;ll briefly learn how to fit and predict regression data by using &amp;lsquo;knnreg&amp;rsquo; function in R.</description>
     </item>

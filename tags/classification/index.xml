@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classification on DATA621 BLOGS</title>
-    <link>/tags/classification/</link>
+    <link>https://aaitelmouden.github.io/blog.github.io/tags/classification/</link>
     <description>Recent content in Classification on DATA621 BLOGS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Abdellah</copyright>
     <lastBuildDate>Fri, 23 Apr 2021 10:56:08 -0600</lastBuildDate>
     
-	<atom:link href="/tags/classification/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aaitelmouden.github.io/blog.github.io/tags/classification/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog IV:  Why not Linear Regression for Classification</title>
-      <link>/posts/blog4/</link>
+      <link>https://aaitelmouden.github.io/blog.github.io/posts/blog4/</link>
       <pubDate>Fri, 23 Apr 2021 10:56:08 -0600</pubDate>
       
-      <guid>/posts/blog4/</guid>
+      <guid>https://aaitelmouden.github.io/blog.github.io/posts/blog4/</guid>
       <description>Linear regression model assumes that the response variable Y is quantitative. But in many situations, the response variable is instead qualitative. But in many situations, the response variable is instead qualitative. Predicting a qualitative response for an observation can be referred to as classifying that observation, since it involves assigning the observation to a category, or class. the most widely-used classiﬁers: logistic regression, linear discriminant analysis, and K-nearest neighbors.
 Why Not Linear Regression?</description>
     </item>
